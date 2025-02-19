@@ -1,7 +1,7 @@
 import Header from '@/components/Header';
 import { ReactNode } from 'react';
 
-const Layout = ({ children }: { children: ReactNode }) => {
+const HomeLayout = ({ children }: { children: ReactNode }) => {
 	return (
 		<main className="root-container">
 			<div className="mx-auto max-w-7xl">
@@ -12,4 +12,4 @@ const Layout = ({ children }: { children: ReactNode }) => {
 	);
 };
 
-export default Layout;
+export default HomeLayout;
