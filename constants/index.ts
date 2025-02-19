@@ -64,6 +64,7 @@ export const sampleBooks = [
 		rating: 4.6,
 		total_copies: 20,
 		available_copies: 10,
+		isLoanedBook: false,
 		description:
 			'A dazzling novel about all the choices that go into a life well lived, The Midnight Library tells the story of Nora Seed as she finds herself between life and death.',
 		color: '#1c1f40',

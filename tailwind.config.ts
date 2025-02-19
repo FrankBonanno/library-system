@@ -99,7 +99,12 @@ export default {
 				},
 			},
 			screens: {
-				xs: '480px',
+				xs: '530px', // Custom breakpoint
+				sm: '640px', // Default Tailwind breakpoint
+				md: '768px',
+				lg: '1024px',
+				xl: '1280px',
+				'2xl': '1536px',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
