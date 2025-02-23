@@ -16,6 +16,9 @@ const nextConfig: NextConfig = {
 				hostname: 'ik.imagekit.io',
 				port: '',
 			},
+			{
+				hostname: 'public.blob.vercel-storage.com',
+			},
 		],
 	},
 	typescript: {
